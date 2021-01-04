@@ -1,5 +1,4 @@
-
-     body{
+body{
     	background-color:#f6f5f5;
     	margin:0px;
     	padding:0px;
@@ -9,7 +8,7 @@
     }
     section{
     	width:100%;
-    	height:150vh;
+    	height:160vh;
     	background-size:cover;
     	background-repeat:no-repeat;
     	position: relative;
@@ -17,20 +16,21 @@
 		background: #000000;
 		box-sizing: border-box;
 		left: 0;
-
+		
     }
     section nav {
     	display: flex;
     	justify-content:flex-end;
     	align-items:center;
-    	height:20px;
+    	height:100px;
     	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     	padding: 100px 9%;
 		float: inherit;
 		font size: 19px;
 		font-family: cursive;
 		font-weight:bold;
-
+		min-width: 300px
+    	
     }
 
     section nav ul{
@@ -51,7 +51,7 @@ section nav ul li
 	   font-size: 35px;
 	   cursor: pointer;
     }
-
+     
     section nav ul li a
 {
     height: 80px;
@@ -61,12 +61,11 @@ section nav ul li
     color:#505050;	
 	display: block;
 	font-size: 25px;
-	
     }
     section nav ul li a:hover,
     section nav ul li a.active
 {
-
+	    
 	    color: #fff;    
 	    background-color:#000000;
     	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
@@ -83,7 +82,7 @@ section nav ul li
 		background-color:#0B0B0B;
     	color:#fff;	
     	border:none;
-
+	
     }
 
     .model{
@@ -103,12 +102,11 @@ section nav ul li
     .text-container p:nth-child(2){
     	font-family:cursive;
     	font-weight:bold;
-    	letter-spacing: 1px;
+    	letter-spacing:1px;
     	color:#fff;
-    	font-size:120px;
-		line-height: 0.6
-		
-
+		font-size: 160px;
+		line-height: 1;
+    	
     }
     .text-container p:nth-child(3){
     	font-family: myriad pro regular;
@@ -116,39 +114,39 @@ section nav ul li
     	font-size:40px;
     	line-height:40px;
     }
-
+     
     .text-container p{
-    	margin:25px 0px 10px;
+    	margin:45px 0px 25px;
     	line-height:0px;
     }
     .text-container button{
     	width:130px;
     	height:42px;
     	border-radius:15px;
-    	font-family:cu;
+    	font-family:cursive;
     	font-weight:bold;
     	font-size: 14px;
     	outline:none;
     	margin:0px 10px;
-
+    	
     }
     .text-container{
     	position: absolute;
     	left:13%;
-    	top:40%;
+    	top:42%;
     	transform:translate(-13%,-42%);
     }
     .hire-btn{
     	border:2px solid #cccccc;
     	color:#fff;
     	background-color:transparent;
-
+    	
     }
     .down-cv{
     	background-color:#fff;
     	color:#333333;	
     	border:none;
-
+		
     }
     button:active{
     	transform:scale(1.1);
@@ -157,7 +155,7 @@ section nav ul li
     	width:80%;
     	height:330px;
     	background:#000;
-    	border-radius:100px;
+    	border-radius:30px;
     	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     	display: flex;
     	margin: -6%  auto 20px auto;
@@ -167,7 +165,7 @@ section nav ul li
 		
     }
     .about-container img{
-    	height: 300px;
+    	height:300px;
 		margin: 7%  auto 20px auto;
     }
     .about-text{
@@ -179,7 +177,6 @@ section nav ul li
     	font-weight:bold;
     	font-size:70px;
     	line-height:100px;
-		
     }
     .about-text p:nth-child(2){
     	color:#3e3d3d;
@@ -187,7 +184,7 @@ section nav ul li
     	font-family: cursive;
     	font-weight:bold;
     	line-height:20px;
-
+		
     }
     .about-text p:nth-child(3),
     .about-text p:nth-child(4){
@@ -195,7 +192,6 @@ section nav ul li
     	font-family:cursive;
     	font-size:40px;
 		line-height: 1.5;
-		
     }
     .about-text button{
     	width: 120px;
@@ -205,11 +201,12 @@ section nav ul li
     	border:none;
     	font-family: cursive;
     	background-color:#262525;
-		font-weight:bold;
+		font-weight: bold;
+		margin: 4%  auto 20px auto;
     }
 
     .services{
-    	height: 700px;
+    	height:700px;
     	background-color:#ffffff;
     	padding: 2% 10% 0px 10%;
 		margin: 1%  auto 40px auto;
@@ -219,7 +216,7 @@ section nav ul li
     	font-weight:bold;
     	color:#1d1c1c;
     	font-size:60px;
-    	line-height:0px;
+    	line-height:100px;
     }
     .services-text p:nth-child(2){
     	font-family:calibri;
@@ -231,13 +228,12 @@ section nav ul li
     .services-text p:nth-child(3){
 	font-family:cursive;
     color:#7e7d7d;
-    font-size:30px;
+    font-size:30px ;
+	text-align: justify;
 }
-    
     .services-text{
     	width: 500px;
     	margin:60px 0px;
-		
     }
     .box-container{
     	display:flex;
@@ -254,18 +250,17 @@ section nav ul li
     	justify-content: center;
     	display: flex;
     	flex-direction: column;
-    	margin: 0px 4px;
-
-
+    	margin: 0px 0px 20px 0px;
+    	
     }
-
+     
     .box-1{
-    	background-image:url(../imagen/Fondo.png)
+    	background-color: #000;
     }
     .box-2{
-    	background-image:url("../imagen/Fondo2.png");
+    	background-color: #000;
     }
-
+    
     .box-1 span,
     .box-2 span{
     	width:40px;
@@ -282,9 +277,8 @@ section nav ul li
     .box-2 p:nth-child(2){
     	color:#FFFFFF;
     	font-family: cursive;
-    	font-size: 25px;
+    	font-size: 23px;
     	line-height:40px;
-		
     }
     .box-1 p:nth-child(3),
     .box-2 p:nth-child(3){
@@ -297,7 +291,7 @@ section nav ul li
     }
     .contact-me{
     	width: 100%;
-    	height:230px;
+    	height:250px;
     	background-size:cover;
     	background-repeat:no-repeat;
     	background-image: url("../imagen/contac.png");
@@ -305,7 +299,7 @@ section nav ul li
     	flex-direction: column;
     	justify-content: center;
     	align-items: center;
-    	margin: 20%  auto 20px auto;
+    	margin: 350px 0px 20px 0px;
 		line-height: 2.5;
     }
     .contact-me p{
@@ -313,7 +307,8 @@ section nav ul li
     	font-size: 30px;
     	font-family: cursive;
     	font-weight:bold;
-
+		text-align: center;
+    
     }
     .contact-me button{
     	width:200px;
@@ -322,7 +317,8 @@ section nav ul li
     	border:none;
     	outline:none;
     	font-size:14px;
-    	font-weight:bold;
+    	font-weight: bold;
+		font-family: inherit;
     }
     footer p{
     	font-family: cursive;
@@ -360,7 +356,7 @@ section nav ul li
     }
     .social-icons{
     	display: flex;
-
+    	
     }
     .social-icons i,.social i{
     	color:#000000;
@@ -375,7 +371,7 @@ section nav ul li
     	color:#FFFFFF;
     	transition:all ease 0.5s;
     }
-
+     
     .byn{
     	color:#565555;
     	font-size: 10px;
@@ -424,109 +420,131 @@ section nav ul li
     		top:46%;
     	}
     	.text-container button{
-    		margin: 10px;
+    		margin: 5px;
     	}
     	.about-container{
     		width:90%;
     		border-radius: 10px;
-			margin: -80%  auto 20px auto;
+			margin: -10%  auto 20px auto;
     	}
     	.about-container img{
-    		height: 300px;
+    		height: 200px;
     	}
     	.about-text{
     		width: 400px;
     	}
     	.about-text p:nth-child(1){
-    		font-size: 60px;
-			text-align: left;
+    	color:#fff;
+    	font-family: cursive;
+    	font-weight:bold;
+    	font-size: 50px;
+    	line-height:40px;
+		text-align: left;
+		
     	}
     	.about-text p:nth-child(2){
-    		font-size: 30px;
-			text-align: right;
-			line-height: 3;
+    	color:#3e3d3d;
+    	font-size:25px;
+    	font-family: cursive;
+    	font-weight:bold;
+    	line-height:40px;
+		text-align: left;
     	}
-
+    	
     	.about-text p:nth-child(3),
     	.about-text p:nth-child(4){
-    		font-size: 30px;
-			text-align: right;
-    	}
-		
+    	color:#7e7d7d;
+    	font-family:cursive;
+    	font-size:30px;
+	    line-height: 1.5;
+		text-align: right; 
+		}
     	.services{
-    		padding: % 5% 0px 5%;
-			font-size: 29px;
-			margin: 5%  auto 20px auto;
+    		padding: 2% 5% 0px 5%;
+			
     	}
+	.services-text p:nth-child(1){
+    	font-family: cursive;
+    	font-weight:bold;
+    	color:#1d1c1c;
+    	font-size:60px;
+    	line-height: 2;
+	
+		
+    }
+		.services-text p:nth-child(3){
+	    font-family:cursive;
+        color:#7e7d7d;
+        font-size:20px;
+		text-align: right;
+}
     	.box-container{
     		justify-content: center;
     		flex-wrap: wrap;
-			
-			
     	}
     	.services{
     		height: auto;
     	}
     	.box-1,.box-2{
     		flex-grow: 1;
-    		margin: 42px;
-			box-shadow: 4px 2px 18px rgba(0,0,0,0.3);
-    	    background-repeat: no-repeat;
-    	    background-size: cover;
-    	    justify-content: center;
-    	    display: flex;
-    	    flex-direction: column;  
+    		margin: 70px;
+			box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     	}
-		.box-1 p:nth-child(3),
-        .box-2 p:nth-child(3){
-    	font-family: cursive;
-    	color:#8F8F8F;
-    	text-align:center;
-    	width: 300px;
-    	margin:1px 1px 1px 1px;
-		line-height: 1.4;
-		font-size: 18px;
-    }
-		
-		
     	.contact-me{
     		height: 200px;
-			margin: 10%  auto 20px auto;
     	}
-		
     	.contact-me p{
-    		font-size: 16px;
+    		font-size: 26px;
     	}
     	.contact-me button{
-    		font-size: 16px;
+    		font-size: 14px;
     		height:35px;
     		width: 160px;
-			font-family:serif;
     	}
     }
     @media(max-width:750px){
     	section{
     		background-image:none;
-    		background-color:#f7f7f7;
+    		background-color:#000;
 			padding: 0 20px;
-			width:100%;
-    	    height:250vh;
+			width: 100%;
+            margin: 0px 0px 0px 0px;
+			height: 200vh;
     	}
     	.model{
     		display: none;
+			height: 100vh;					
     	}
+	
     	.menu-toggle{
     		display: block;
 			color: #fff;
     	}
+		 .text-container p:nth-child(1){
+    	font-family: cursive;
+    	font-weight:bold;
+    	color:#666666;
+    	font-size:40px;
+	    line-height: 1;
+	    margin: 690px 0px 0px 0px;
+		}
     	.text-container p:nth-child(2){
-    		line-height: 100px;
+    		line-height: 80px;
     		margin: 0px;
     		padding: 0px;
-
+			font-size: 80px;
+			font-family:cursive;
+			font-weight:bold;
+			color:#fff;
     	}
+		.text-container p:nth-child(3){
+    	font-family: cursive;
+    	color: #666666;
+    	font-size:20px;
+    	line-height:20px;
+    }
     	.text-container{
-    		top: 55%;
+    		top: 50%;
     		left: 50%;
     		transform: translate(-50%,-50%);
     		width: 80%;
@@ -552,15 +570,15 @@ section nav ul li
 			background: #000000;
 		}
     	section nav ul{
-
+    		
     		display: block;
 			text-align: center;
-
+    		
     	}
     	section nav ul li a
 		{
 			border-bottom: 1px solid rgba(0,0,0,.2);
-
+			
     	}
 		section nav.active
 		{
@@ -568,9 +586,9 @@ section nav ul li
 		}
     	.menu-toggle{
 			display: block;
-
+			
     	}
-
+    		
     	}
     	.about-container{
     		top: 0px;
@@ -587,19 +605,19 @@ section nav ul li
     	.services-text{
     		width: 100%;
     	}
+
     	.contact-me{
-    		height: 180px;
+			width: 100%;
     	}
     	.contact-me p{
-    		font-size: 20px;
-			text-align: center;
+    		font-size: 18px;
     	}
     	.contact-me button{
     		width: 150px;
     		height: 33px;
     	}
     	footer p:nth-child(2){
-    		width: 90%;
+    		width: 100%;
     	}
-
-    } 
+    	
+    
